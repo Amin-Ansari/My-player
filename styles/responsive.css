@@ -229,7 +229,7 @@
 .container-fluid {
   width: 100%;
 }
-.container {
+.wraper {
   grid-template-columns: minmax(auto, 1200px);
   justify-content: center;
 }

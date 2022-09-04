@@ -159,6 +159,11 @@
   padding-left: 70px;
 }
 
+.side-paddings {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
 .margin-right-left-3 {
   margin-right: 3px;
   margin-left: 3px;
