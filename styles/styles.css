@@ -22,7 +22,7 @@ a {
   top: 0px;
   right: 0px;
   align-items: center;
-  background: #15151598;
+  background-color: rgba(21, 21, 21, 0.95);
   z-index: 1;
 }
 .header-content {
@@ -196,7 +196,7 @@ span.menu-link:after {
 }
 .off-canvas-link {
   display: inline-block;
-  font-size: 1.15em;
+  font-size: 1.2em;
   font-weight: 400;
 }
 .off-canvas-more-items {
@@ -223,4 +223,9 @@ span.menu-link:after {
 .rotate-angle {
   transition: all 0.3s;
   transform: rotate(180deg);
+}
+.into-iamge {
+  border-radius: 6px;
+  border: 1px solid #ffffff29;
+  box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.7);
 }

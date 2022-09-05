@@ -7,4 +7,4 @@ document.addEventListener("click", function (eventObject) {
     toggleOffCanvas();
   }
 });
-moreItem.addEventListener("click", () => openAcc());
+moreItem.firstElementChild.addEventListener("click", () => openAcc());
