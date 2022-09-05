@@ -48,6 +48,9 @@
     justify-content: flex-start;
     padding: 0px 0px;
   }
+  .off-canvas-container {
+    display: block;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -97,7 +100,10 @@
   }
   .button-container {
     justify-content: flex-end;
-    padding: 0px 25px;
+    padding: 0px 35px;
+  }
+  .off-canvas-container {
+    display: block;
   }
 }
 @media all and (min-width: 768px) {
@@ -148,7 +154,10 @@
   }
   .button-container {
     justify-content: flex-end;
-    padding: 0px 25px;
+    padding: 0px 35px;
+  }
+  .off-canvas-container {
+    display: block;
   }
 }
 @media all and (min-width: 992px) {
@@ -200,6 +209,9 @@
   .button-container {
     justify-content: flex-end;
     padding: 0px 0px;
+  }
+  .off-canvas-container {
+    display: none;
   }
 }
 @media all and (min-width: 1200px) {

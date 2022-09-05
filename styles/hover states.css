@@ -5,7 +5,7 @@
 .sub-menu li:hover {
   padding-right: 15px;
   background: rgba(14, 14, 14, 0.295);
-  color: #20a446;
+  color: #26c453;
 }
 .sumb-menu-item:hover > ul {
   display: flex;
