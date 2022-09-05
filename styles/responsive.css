@@ -35,6 +35,12 @@
   .xs-span-12 {
     grid-column: span 12;
   }
+  .header-style {
+    height: 63px;
+  }
+  .nav-menu {
+    display: none;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -72,6 +78,12 @@
   }
   .sm-span-12 {
     grid-column: span 12;
+  }
+  .header-style {
+    height: 63px;
+  }
+  .nav-menu {
+    display: none;
   }
 }
 @media all and (min-width: 768px) {
@@ -111,6 +123,12 @@
   .md-span-12 {
     grid-column: span 12;
   }
+  .header-style {
+    height: 63px;
+  }
+  .nav-menu {
+    display: none;
+  }
 }
 @media all and (min-width: 992px) {
   .lg-span-1 {
@@ -148,6 +166,12 @@
   }
   .lg-span-12 {
     grid-column: span 12;
+  }
+  .header-style {
+    height: 93px;
+  }
+  .nav-menu {
+    display: flex;
   }
 }
 @media all and (min-width: 1200px) {
@@ -187,6 +211,9 @@
   .xl-span-12 {
     grid-column: span 12;
   }
+  .header-style {
+    height: 93px;
+  }
 }
 @media all and (min-width: 1400px) {
   .xxl-span-1 {
@@ -224,6 +251,9 @@
   }
   .xxl-span-12 {
     grid-column: span 12;
+  }
+  .header-style {
+    height: 93px;
   }
 }
 .container-fluid {

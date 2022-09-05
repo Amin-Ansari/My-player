@@ -1,0 +1,4 @@
+.button-style:hover {
+  background-position: 100% 100%;
+  transition: all 0.4s;
+}
