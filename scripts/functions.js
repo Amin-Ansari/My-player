@@ -6,3 +6,7 @@ function toggleOffCanvas() {
   });
   offCanvasContainer.classList.toggle("show");
 }
+function openAcc() {
+  moreItem.firstElementChild.lastElementChild.classList.toggle("rotate-angle");
+  moreItem.lastElementChild.classList.toggle("open-acc");
+}

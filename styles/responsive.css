@@ -44,9 +44,14 @@
   .off-canvas-button {
     display: flex;
   }
+  .header-content {
+    width: 100%;
+    color: #fff;
+    grid-template-columns: auto auto 1fr;
+  }
   .button-container {
-    justify-content: flex-start;
-    padding: 0px 0px;
+    justify-content: flex-end;
+    padding: 0px 35px;
   }
   .off-canvas-container {
     display: block;
