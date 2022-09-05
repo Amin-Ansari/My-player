@@ -22,6 +22,7 @@ a {
   top: 0px;
   right: 0px;
   align-items: center;
+  background: #15151598;
 }
 .header-content {
   width: 100%;
@@ -44,6 +45,7 @@ a {
   display: inline-block;
   font-size: 1.04em;
   cursor: pointer;
+  text-align: center;
 }
 span.menu-link:after {
   content: "\f107";
@@ -62,11 +64,11 @@ span.menu-link:after {
   color: #fff;
   outline: none;
   border-radius: 20px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 600;
   transition: all 0.4s;
-  padding-top: 5.8px;
-  padding-bottom: 5.8px;
+  padding-top: 5.6px;
+  padding-bottom: 5.6px;
 }
 .off-canvas-button {
   border: none;
@@ -87,7 +89,6 @@ span.menu-link:after {
   border-radius: 6px;
   transition: all 0.4s;
 }
-
 .clicked:nth-of-type(1) {
   transform: translate(1px, 8px) rotate(50deg);
 }
@@ -96,4 +97,39 @@ span.menu-link:after {
 }
 .clicked:nth-of-type(3) {
   transform: translate(1px, -8px) rotate(-50deg);
+}
+.sumb-menu-item {
+  position: relative;
+}
+.sub-menu {
+  position: absolute;
+  top: 0px;
+  right: -11px;
+  padding-top: 35px;
+  opacity: 0;
+  transform: translateY(90px) scale(1.5);
+  display: none;
+}
+.sub-content {
+  border-radius: 8px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  background-image: linear-gradient(140deg, #303030, #1a1a1a);
+  box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.5);
+  flex-flow: column wrap;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.sub-menu li {
+  width: 100%;
+  transition: all 0.4s;
+  color: #b1b1b1;
+}
+.sub-menu-link {
+  display: block;
+  padding: 3px 10px;
+  transition: all 0.4s;
+  font-size: 1.07em;
+  font-weight: 400;
 }

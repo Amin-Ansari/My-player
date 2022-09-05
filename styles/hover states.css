@@ -2,3 +2,12 @@
   background-position: 100% 100%;
   transition: all 0.4s;
 }
+.sub-menu li:hover {
+  padding-right: 15px;
+  background: rgba(14, 14, 14, 0.295);
+  color: #20a446;
+}
+.sumb-menu-item:hover > ul {
+  display: flex;
+  animation: sub-menu 0.3s ease-out 0s 1 normal forwards;
+}
