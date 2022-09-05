@@ -43,6 +43,7 @@ a {
 .menu-link {
   display: inline-block;
   font-size: 1.04em;
+  cursor: pointer;
 }
 span.menu-link:after {
   content: "\f107";
@@ -52,10 +53,7 @@ span.menu-link:after {
   font-size: 0.82em;
 }
 .button-container {
-  justify-content: flex-end;
-}
-.donation-button {
-  margin-left: 10px;
+  position: relative;
 }
 .button-style {
   border: none;
@@ -63,7 +61,39 @@ span.menu-link:after {
   background-size: 200% 100%;
   color: #fff;
   outline: none;
-  border-radius: 16px;
+  border-radius: 20px;
   font-size: 1.2em;
+  font-weight: 600;
   transition: all 0.4s;
+  padding-top: 5.8px;
+  padding-bottom: 5.8px;
+}
+.off-canvas-button {
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 32px;
+  position: absolute;
+  left: -10px;
+  background-color: transparent;
+  flex-flow: row wrap;
+  padding: 3.5px 0px;
+  overflow: hidden;
+}
+.bars {
+  width: 100%;
+  height: 2.8px;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: all 0.4s;
+}
+
+.clicked:nth-of-type(1) {
+  transform: translate(1px, 8px) rotate(50deg);
+}
+.clicked:nth-of-type(2) {
+  transform: translate(-150px);
+}
+.clicked:nth-of-type(3) {
+  transform: translate(1px, -8px) rotate(-50deg);
 }
