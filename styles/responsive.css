@@ -51,6 +51,9 @@
   .off-canvas-container {
     display: block;
   }
+  .intro-title {
+    font-size: 1.9em;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -104,6 +107,9 @@
   }
   .off-canvas-container {
     display: block;
+  }
+  .intro-title {
+    font-size: 2.4em;
   }
 }
 @media all and (min-width: 768px) {
@@ -159,6 +165,9 @@
   .off-canvas-container {
     display: block;
   }
+  .intro-title {
+    font-size: 2.4em;
+  }
 }
 @media all and (min-width: 992px) {
   .lg-span-1 {
@@ -213,6 +222,9 @@
   .off-canvas-container {
     display: none;
   }
+  .intro-title {
+    font-size: 2.8em;
+  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -254,6 +266,10 @@
   .header-style {
     height: 93px;
   }
+  .intro-title {
+    font-size: 3.5em;
+    line-height: 1.4em;
+  }
 }
 @media all and (min-width: 1400px) {
   .xxl-span-1 {
@@ -294,6 +310,10 @@
   }
   .header-style {
     height: 93px;
+  }
+  .intro-title {
+    font-size: 3.5em;
+    line-height: 1.4em;
   }
 }
 .container-fluid {

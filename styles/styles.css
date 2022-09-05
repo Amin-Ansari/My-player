@@ -10,7 +10,7 @@
 
 body {
   background-color: #151515;
-  padding-top: 80px;
+  padding-top: 93px;
 }
 a {
   color: inherit;
@@ -150,6 +150,7 @@ span.menu-link:after {
   font-size: 1.04em;
   font-weight: 400;
   color: inherit;
+  transition: all 0.2s;
 }
 .off-canvas-container {
   width: 100%;
@@ -169,4 +170,25 @@ span.menu-link:after {
   max-width: 576px;
   height: 100%;
   background-image: linear-gradient(90deg, #1a1a1a, #303030);
+}
+.intro-context {
+  margin: 100px 0px;
+  color: #fff;
+  text-align: center;
+}
+.green-span {
+  background-image: linear-gradient(to left, #058d3f 25%, #66df57);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  font-size: 0.95em;
+  font-weight: 500;
+  display: block;
+}
+.intro-title {
+  font-size: 2em;
+  word-spacing: -1px;
+  font-weight: 900;
+  line-height: 1.6em;
 }
