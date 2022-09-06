@@ -300,3 +300,19 @@ span.menu-link:after {
     no-repeat center center;
   margin-left: 7px;
 }
+.companies {
+  color: #fff;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.companies-title {
+  font-size: 1.8em;
+  width: 100%;
+}
+.company-img {
+  height: 28px;
+  opacity: 0.5;
+  display: inline-block;
+}

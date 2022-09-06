@@ -98,6 +98,9 @@
   .feature-att-item {
     padding: 1.5vw 0px;
   }
+  .companies-title {
+    padding: 5vw 0vw;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -170,6 +173,9 @@
   .feature-att-item {
     padding: 0.8vw 0px;
   }
+  .companies-title {
+    padding: 5vw 0vw;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -241,6 +247,9 @@
   }
   .feature-att-item {
     padding: 0.8vw 0px;
+  }
+  .companies-title {
+    padding: 5vw 0vw;
   }
 }
 @media all and (min-width: 992px) {
@@ -317,6 +326,9 @@
   .feature-att-item {
     padding: 0.5vw 0px;
   }
+  .companies-title {
+    padding: 5vw 0vw;
+  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -371,6 +383,9 @@
   .feature-att-item {
     padding: 0.43vw 0px;
   }
+  .companies-title {
+    padding: 3vw 0vw;
+  }
 }
 @media all and (min-width: 1400px) {
   .xxl-span-1 {
@@ -415,6 +430,9 @@
   .intro-title {
     font-size: 3.5em;
     line-height: 1.4em;
+  }
+  .companies-title {
+    padding: 2.5vw 0vw;
   }
 }
 .container-fluid {
