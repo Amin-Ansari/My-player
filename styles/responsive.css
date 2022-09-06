@@ -83,6 +83,18 @@
   .feature-padd {
     padding: 0px 0px;
   }
+  .attribute-section {
+    flex-flow: row wrap-reverse;
+  }
+  .attribute-image {
+    width: 100%;
+  }
+  .attribute-context h4 {
+    font-size: 1.5em;
+  }
+  .attribute-context {
+    padding: 18px 10vw;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -142,6 +154,15 @@
   }
   .feature-list {
     column-gap: 50px;
+  }
+  .attribute-section {
+    flex-flow: row wrap-reverse;
+  }
+  .attribute-image {
+    width: 100%;
+  }
+  .attribute-context {
+    padding: 18px 10vw;
   }
 }
 @media all and (min-width: 768px) {
@@ -203,6 +224,15 @@
   .feature-list {
     column-gap: 50px;
   }
+  .attribute-section {
+    flex-flow: row wrap-reverse;
+  }
+  .attribute-image {
+    width: 100%;
+  }
+  .attribute-context {
+    padding: 18px 9vw;
+  }
 }
 @media all and (min-width: 992px) {
   .lg-span-1 {
@@ -263,6 +293,18 @@
   .feature-list {
     column-gap: 80px;
   }
+  .attribute-section {
+    flex-flow: row nowrap;
+  }
+  .attribute-image {
+    width: 60%;
+  }
+  .attribute-context h4 {
+    font-size: 1.9em;
+  }
+  .attribute-context {
+    padding: 0px 6vw 0px 1vw;
+  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -310,6 +352,9 @@
   }
   .feature-list {
     column-gap: 92px;
+  }
+  .attribute-context h4 {
+    font-size: 2em;
   }
 }
 @media all and (min-width: 1400px) {
