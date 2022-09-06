@@ -59,6 +59,30 @@
   .intro-title {
     font-size: 1.9em;
   }
+  .feature-list {
+    column-gap: 0px;
+  }
+  .feature-item {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-item h5 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .feature-item p {
+    text-align: center;
+  }
+  .icon-container {
+    margin: 0px;
+  }
+  .feature-title {
+    text-align: center;
+  }
+  .feature-padd {
+    padding: 0px 0px;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -115,6 +139,9 @@
   }
   .intro-title {
     font-size: 2.4em;
+  }
+  .feature-list {
+    column-gap: 50px;
   }
 }
 @media all and (min-width: 768px) {
@@ -173,6 +200,9 @@
   .intro-title {
     font-size: 2.4em;
   }
+  .feature-list {
+    column-gap: 50px;
+  }
 }
 @media all and (min-width: 992px) {
   .lg-span-1 {
@@ -230,6 +260,9 @@
   .intro-title {
     font-size: 2.8em;
   }
+  .feature-list {
+    column-gap: 80px;
+  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -274,6 +307,9 @@
   .intro-title {
     font-size: 3.5em;
     line-height: 1.4em;
+  }
+  .feature-list {
+    column-gap: 92px;
   }
 }
 @media all and (min-width: 1400px) {

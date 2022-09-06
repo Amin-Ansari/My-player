@@ -1,6 +1,6 @@
 @keyframes sub-menu {
   100% {
-    opacity: 0.8;
+    opacity: 1;
     transform: translateY(0px) scale(1);
   }
 }
