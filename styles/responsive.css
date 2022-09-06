@@ -95,6 +95,9 @@
   .attribute-context {
     padding: 18px 10vw;
   }
+  .feature-att-item {
+    padding: 1.5vw 0px;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -164,6 +167,9 @@
   .attribute-context {
     padding: 18px 10vw;
   }
+  .feature-att-item {
+    padding: 0.8vw 0px;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -232,6 +238,9 @@
   }
   .attribute-context {
     padding: 18px 9vw;
+  }
+  .feature-att-item {
+    padding: 0.8vw 0px;
   }
 }
 @media all and (min-width: 992px) {
@@ -305,6 +314,9 @@
   .attribute-context {
     padding: 0px 6vw 0px 1vw;
   }
+  .feature-att-item {
+    padding: 0.5vw 0px;
+  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -355,6 +367,9 @@
   }
   .attribute-context h4 {
     font-size: 2em;
+  }
+  .feature-att-item {
+    padding: 0.43vw 0px;
   }
 }
 @media all and (min-width: 1400px) {
