@@ -397,3 +397,42 @@ span.menu-link:after {
   font-size: 1.5em;
   transition: all 0.4s;
 }
+.users-comments {
+  color: #fff;
+  margin: 5vw 0px;
+}
+.comments-list {
+  column-gap: 25px;
+}
+.comment {
+  margin: 0vw 0px;
+  background-image: linear-gradient(138deg, #303030, #1a1a1a);
+  border-radius: 20px;
+  height: min-content;
+}
+.uesr-comments-title {
+  font-size: 2em;
+}
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-left: 13px;
+}
+.user-name {
+  font-size: 1.2em;
+  padding-top: 13px;
+}
+.user-name ~ p {
+  color: #858585;
+  font-size: 0.87em;
+  line-height: 1.5em;
+  text-align: justify;
+  padding-top: 5px;
+}
+.comments-list {
+  padding: 40px 0px;
+}
+.no-margin {
+  margin: -25px 0px;
+}

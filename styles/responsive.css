@@ -99,7 +99,8 @@
     padding: 1.5vw 0px;
   }
   .companies-title {
-    padding: 5vw 0vw;
+    font-size: 1.6em;
+    padding: 8vw 0vw;
   }
   .skin-title {
     text-align: center;
@@ -117,9 +118,24 @@
   .video-tour ~ h4 {
     font-size: 1.8em;
     font-weight: 800;
+    padding: 15vw 0px;
   }
   .button-play {
     font-size: 1.6em;
+  }
+  .users-comments {
+    margin: 15vw 0px;
+  }
+  .uesr-comments-title {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .short-comment {
+    margin-top: 2.1vw;
+    margin-bottom: 2.1vw;
+  }
+  .first-margin {
+    margin-bottom: 18px;
   }
 }
 @media all and (min-width: 576px) {
@@ -194,10 +210,13 @@
     padding: 0.8vw 0px;
   }
   .companies-title {
-    padding: 5vw 0vw;
+    padding: 7vw 0vw;
   }
   .img-radius {
     border-radius: 8px;
+  }
+  .first-margin {
+    margin-bottom: 25px;
   }
 }
 @media all and (min-width: 768px) {
@@ -272,10 +291,17 @@
     padding: 0.8vw 0px;
   }
   .companies-title {
-    padding: 5vw 0vw;
+    padding: 7vw 0vw;
   }
   .img-radius {
     border-radius: 12px;
+  }
+  .short-comment {
+    margin-top: 1.6vw;
+    margin-bottom: 1.5vw;
+  }
+  .first-margin {
+    margin-bottom: 25px;
   }
 }
 @media all and (min-width: 992px) {
@@ -358,6 +384,13 @@
   .img-radius {
     border-radius: 17px;
   }
+  .short-comment {
+    margin-top: 1.6vw;
+    margin-bottom: -2.8vw;
+  }
+  .first-column {
+    margin: 2.3vw 0px;
+  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -413,7 +446,17 @@
     padding: 0.43vw 0px;
   }
   .companies-title {
-    padding: 3vw 0vw;
+    padding: 3.5vw 0vw;
+  }
+  .no-margin {
+    margin-top: -40px;
+  }
+  .margin-on {
+    margin: 2.5vw 0px;
+  }
+  .short-comment {
+    margin-top: 1.6vw;
+    margin-bottom: -2.8vw;
   }
 }
 @media all and (min-width: 1400px) {
@@ -461,7 +504,7 @@
     line-height: 1.4em;
   }
   .companies-title {
-    padding: 2.5vw 0vw;
+    padding: 3.8vw 0vw;
   }
 }
 .container-fluid {
