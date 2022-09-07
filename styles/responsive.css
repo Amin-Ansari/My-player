@@ -41,6 +41,12 @@
   .nav-menu {
     display: none;
   }
+  .foot-menu {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
   .off-canvas-button {
     display: flex;
   }

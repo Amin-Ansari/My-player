@@ -557,3 +557,37 @@ span.menu-link:after {
   color: #6e6e6e;
   margin-top: 5px;
 }
+.footer-style {
+  border-top: 1px solid #ffffff1a;
+  padding-top: 50px;
+}
+.footer-navigation li {
+  color: #fff;
+  font-size: 0.85em;
+}
+.social-media {
+  padding: 22px 0px 50px;
+  flex-flow: row wrap;
+}
+.social-media li {
+  font-size: 0.9em;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #ffffff18;
+  transition: all 0.4s;
+}
+.social-media a {
+  width: 100%;
+  height: 100%;
+}
+.foot-menu {
+  height: 100%;
+  display: flex;
+}
+.copy-right-p {
+  color: #fff;
+  padding: 42px 32px 15px;
+  font-size: 0.9em;
+  border-top: 1px solid #ffffff1a;
+}
