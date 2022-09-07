@@ -10,3 +10,9 @@ function openAcc() {
   moreItem.firstElementChild.lastElementChild.classList.toggle("rotate-angle");
   moreItem.lastElementChild.classList.toggle("open-acc");
 }
+function showVideo() {
+  videoSection.classList.replace("dis-none", "dis-flex");
+}
+function closeVideo() {
+  closeButton.parentElement.classList.replace("dis-flex", "dis-none");
+}

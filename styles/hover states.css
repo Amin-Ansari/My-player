@@ -20,3 +20,6 @@
   border-color: #21bd4d;
   transform: scale(1.04);
 }
+.close-btn:hover {
+  color: #fff;
+}

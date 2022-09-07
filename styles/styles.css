@@ -376,3 +376,24 @@ span.menu-link:after {
   text-align: center;
   font-size: 2.5em;
 }
+.vidoe-section {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background: #020202da;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.my-video {
+  width: 100%;
+  max-width: 1200px;
+}
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #b1b1b1;
+  font-size: 1.5em;
+  transition: all 0.4s;
+}
