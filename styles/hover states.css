@@ -23,3 +23,10 @@
 .close-btn:hover {
   color: #fff;
 }
+.post:hover img {
+  transform: translateX(-10px);
+}
+.post:hover .post-title {
+  border-color: #fff;
+  padding-bottom: 45px;
+}

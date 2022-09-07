@@ -83,6 +83,9 @@
   .feature-padd {
     padding: 0px 0px;
   }
+  .recent-padd {
+    padding: 0px 0px;
+  }
   .attribute-section {
     flex-flow: row wrap-reverse;
   }
@@ -149,6 +152,19 @@
   }
   .recent-title {
     font-size: 1.7em;
+  }
+  .post-list {
+    column-gap: 0px;
+  }
+  .post-title {
+    font-size: 1.3em;
+    margin: 0px 35px;
+    padding: 25px 0px;
+    font-weight: 600;
+  }
+  .post-date {
+    margin: 0px 35px;
+    padding: 20px 0px;
   }
 }
 @media all and (min-width: 576px) {
@@ -241,6 +257,9 @@
     width: 28%;
     font-size: 1.1em;
   }
+  .recent-padd {
+    padding: 0px 120px;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -325,6 +344,9 @@
   }
   .first-margin {
     margin-bottom: 25px;
+  }
+  .recent-padd {
+    padding: 0px 120px;
   }
 }
 @media all and (min-width: 992px) {
@@ -413,6 +435,9 @@
   }
   .first-column {
     margin: 2.3vw 0px;
+  }
+  .recent-padd {
+    padding: 0px 50px;
   }
 }
 @media all and (min-width: 1200px) {
