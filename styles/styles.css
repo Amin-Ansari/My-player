@@ -400,7 +400,6 @@ span.menu-link:after {
 }
 .users-comments {
   color: #fff;
-  margin: 5vw 0px;
 }
 .comments-list {
   column-gap: 25px;
@@ -437,4 +436,43 @@ span.menu-link:after {
 }
 .no-margin {
   margin: -25px 0px;
+}
+.stay-in-touch {
+  text-align: center;
+  color: #fff;
+}
+.st-title {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.sub-heading {
+  color: #6e6e6e;
+  font-size: 0.8;
+  font-weight: 300;
+}
+.subscribe-form {
+  max-width: 480px;
+  margin: 0px auto;
+  background-color: rgba(242, 243, 245, 0.06);
+  border-radius: 26px;
+  overflow: hidden;
+}
+.subscribe-form input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  overflow: hidden;
+  font-size: 1em;
+}
+.subscribe-form input::placeholder {
+  font-size: 0.88em;
+}
+.recent-heading {
+  text-align: center;
+  color: #fff;
+}
+.recent-title {
+  font-size: 2.1em;
+  font-weight: 900;
 }
