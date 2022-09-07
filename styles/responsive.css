@@ -118,6 +118,9 @@
     font-size: 1.8em;
     font-weight: 800;
   }
+  .button-play {
+    font-size: 1.6em;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
