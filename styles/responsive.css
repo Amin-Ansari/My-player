@@ -114,6 +114,10 @@
   .skin-section {
     padding: 8vw 0px;
   }
+  .video-tour ~ h4 {
+    font-size: 1.8em;
+    font-weight: 800;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {

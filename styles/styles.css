@@ -342,3 +342,15 @@ span.menu-link:after {
   color: #626262;
   line-height: 1.5em;
 }
+.video-headings {
+  text-align: center;
+  color: #fff;
+}
+.video-tour {
+  font-size: 1.15em;
+}
+.video-tour ~ h4 {
+  font-size: 2.4em;
+  font-weight: 800;
+  margin: 0.8vw 0px;
+}
