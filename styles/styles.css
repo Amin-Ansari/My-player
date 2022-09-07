@@ -331,6 +331,7 @@ span.menu-link:after {
   font-weight: 800;
 }
 .img-radius {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
   border-radius: 16px;
 }
 .skin-heading {
@@ -352,7 +353,7 @@ span.menu-link:after {
 .video-tour ~ h4 {
   font-size: 2.4em;
   font-weight: 800;
-  margin: 0.8vw 0px;
+  padding: 25px 0px 80px 0px;
 }
 .mackbook-div {
   width: 100%;
@@ -407,6 +408,7 @@ span.menu-link:after {
 .comment {
   margin: 0vw 0px;
   background-image: linear-gradient(138deg, #303030, #1a1a1a);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   height: min-content;
 }

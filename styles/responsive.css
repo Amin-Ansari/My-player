@@ -118,13 +118,13 @@
   .video-tour ~ h4 {
     font-size: 1.8em;
     font-weight: 800;
-    padding: 15vw 0px;
+    padding: 10px 0px 80px 0px;
   }
   .button-play {
     font-size: 1.6em;
   }
   .users-comments {
-    margin: 15vw 0px;
+    margin: 18vw 0px;
   }
   .uesr-comments-title {
     font-size: 1.8em;
@@ -135,7 +135,7 @@
     margin-bottom: 2.1vw;
   }
   .first-margin {
-    margin-bottom: 18px;
+    margin-bottom: 15px;
   }
 }
 @media all and (min-width: 576px) {
@@ -217,6 +217,9 @@
   }
   .first-margin {
     margin-bottom: 25px;
+  }
+  .users-comments {
+    margin: 10vw 0px;
   }
 }
 @media all and (min-width: 768px) {
