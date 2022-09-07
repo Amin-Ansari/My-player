@@ -166,6 +166,17 @@
     margin: 0px 35px;
     padding: 20px 0px;
   }
+  .doantion-container img {
+    width: 72px;
+    height: 72px;
+  }
+  .doantion-button {
+    font-size: 1.3em;
+  }
+  .donation-title {
+    color: #fff;
+    font-size: 1.4em;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
