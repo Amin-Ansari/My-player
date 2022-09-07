@@ -316,3 +316,29 @@ span.menu-link:after {
   opacity: 0.5;
   display: inline-block;
 }
+.skin-list {
+  column-gap: 27px;
+}
+.skin-item {
+  margin: 2.5vw 0px;
+}
+.skin-section {
+  color: #fff;
+  padding: 5vw 0px;
+}
+.skin-title {
+  font-size: 2em;
+  font-weight: 800;
+}
+.img-radius {
+  border-radius: 16px;
+}
+.skin-heading {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.skin-heading ~ p {
+  font-size: 0.94em;
+  color: #626262;
+  line-height: 1.5em;
+}

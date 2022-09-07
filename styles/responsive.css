@@ -101,6 +101,19 @@
   .companies-title {
     padding: 5vw 0vw;
   }
+  .skin-title {
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .img-radius {
+    border-radius: 8px;
+  }
+  .skin-item {
+    margin: 5.5vw 0px;
+  }
+  .skin-section {
+    padding: 8vw 0px;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -176,6 +189,9 @@
   .companies-title {
     padding: 5vw 0vw;
   }
+  .img-radius {
+    border-radius: 8px;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -250,6 +266,9 @@
   }
   .companies-title {
     padding: 5vw 0vw;
+  }
+  .img-radius {
+    border-radius: 12px;
   }
 }
 @media all and (min-width: 992px) {
@@ -328,6 +347,9 @@
   }
   .companies-title {
     padding: 5vw 0vw;
+  }
+  .img-radius {
+    border-radius: 17px;
   }
 }
 @media all and (min-width: 1200px) {
