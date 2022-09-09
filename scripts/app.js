@@ -25,6 +25,9 @@ const imageIntro = new ElementScroll(
   document.querySelector(".into-iamge"),
   -50
 );
+const slaceElement = document.querySelectorAll(".no-scale");
+let elementList = [];
+
 offCanvasButton.addEventListener("click", () => toggleOffCanvas());
 document.addEventListener("click", function (eventObject) {
   if (eventObject.target.classList.contains("off-canvas-container")) {
@@ -39,4 +42,31 @@ document.addEventListener("scroll", function () {
     imageIntro.scrollCalculate();
     imageIntro.onScrollMethod();
   }
+  for (let i = 0; i < elementList.length; i++) {
+    elementList[i].scrollCalculate();
+    elementList[i].onScrollMethod();
+  }
 });
+function ScaleUp(elem, val) {
+  this.elementObject = elem;
+  this.transformValue = val;
+  this.opacityValue = 0.2;
+  this.onScrollMethod = function () {
+    this.elementObject.style = `transform: scale(${Number(
+      this.transformValue
+    )});opacity: ${Number(this.opacityValue)} `;
+  };
+  this.scrollCalculate = function () {
+    let bounding = this.elementObject.getBoundingClientRect();
+    if (bounding.y <= 750) {
+      if (this.transformValue < 1) {
+        this.transformValue += 0.009;
+        this.opacityValue += 0.02;
+      }
+    }
+  };
+}
+for (let i = 0; i < noScaleElement.length; i++) {
+  elementList.push(new ScaleUp(noScaleElement[i], 0.7));
+}
+console.log(elementList[0].scrollCalculate());
