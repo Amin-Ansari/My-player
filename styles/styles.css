@@ -223,10 +223,16 @@ span.menu-link:after {
   transition: all 0.3s;
   transform: rotate(180deg);
 }
+.intro-iamge-container {
+  perspective: 2000px;
+  transform-style: preserve-3d;
+}
 .into-iamge {
   border-radius: 6px;
   border: 1px solid #ffffff29;
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.7);
+  transform: rotateX(-50deg);
+  opacity: 0.2;
 }
 .feature-section {
   color: #fff;
