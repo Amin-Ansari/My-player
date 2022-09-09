@@ -232,6 +232,7 @@ span.menu-link:after {
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.7);
   opacity: 0.2;
   transform: rotateX(-50deg);
+  transition: all 0.1s;
 }
 .feature-section {
   color: #fff;
@@ -599,4 +600,5 @@ span.menu-link:after {
 .no-scale {
   transform: scale(0.7);
   opacity: 0.2;
+  transition: all 0.1s;
 }
