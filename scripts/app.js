@@ -69,4 +69,3 @@ function ScaleUp(elem, val) {
 for (let i = 0; i < noScaleElement.length; i++) {
   elementList.push(new ScaleUp(noScaleElement[i], 0.7));
 }
-console.log(elementList[0].scrollCalculate());

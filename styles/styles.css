@@ -219,6 +219,9 @@ span.menu-link:after {
   transition: all 0.3s;
   transform: rotate(0deg);
 }
+.rotate-angle {
+  transform: rotate(180deg);
+}
 .intro-iamge-container {
   perspective: 2000px;
   transform-style: preserve-3d;
