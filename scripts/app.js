@@ -68,6 +68,9 @@ document.addEventListener("scroll", function () {
     elementList[i].scrollCalculate();
     elementList[i].onScrollMethod();
   }
+  window.addEventListener("load", function () {
+    this.document.documentElement.scrollTop = 0;
+  });
 });
 for (let i = 0; i < noScaleElement.length; i++) {
   elementList.push(new ScaleUp(noScaleElement[i], 0.7));
