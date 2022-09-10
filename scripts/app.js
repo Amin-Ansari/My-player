@@ -57,8 +57,12 @@ document.addEventListener("click", function (eventObject) {
   }
 });
 moreItem.firstElementChild.addEventListener("click", () => openAcc());
-videoPlayButton.addEventListener("click", () => showVideo());
-closeButton.addEventListener("click", () => closeVideo());
+if (videoPlayButton) {
+  videoPlayButton.addEventListener("click", () => showVideo());
+}
+if (closeButton) {
+  closeButton.addEventListener("click", () => closeVideo());
+}
 document.addEventListener("scroll", function () {
   if (window.innerWidth >= 576) {
     imageIntro.scrollCalculate();
