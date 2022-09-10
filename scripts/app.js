@@ -2,8 +2,17 @@ const offCanvasButton = document.querySelector(".off-canvas-button");
 const moreItem = document.querySelector(".off-canvas-more-items");
 const videoPlayButton = document.querySelector(".button-play");
 const videoSection = document.querySelector(".vidoe-section");
+const videoMedia = document.querySelector("video");
 const closeButton = document.querySelector(".close-btn");
 const noScaleElement = document.querySelectorAll(".no-scale");
+const imageIntro = new ElementScroll(
+  document.querySelector(".into-iamge"),
+  -50
+);
+const slaceElement = document.querySelectorAll(".no-scale");
+let elementList = [];
+
+// Contructor functions
 function ElementScroll(elem, val) {
   this.elementObject = elem;
   this.transformValue = val;
@@ -21,12 +30,25 @@ function ElementScroll(elem, val) {
     }
   };
 }
-const imageIntro = new ElementScroll(
-  document.querySelector(".into-iamge"),
-  -50
-);
-const slaceElement = document.querySelectorAll(".no-scale");
-let elementList = [];
+function ScaleUp(elem, val) {
+  this.elementObject = elem;
+  this.transformValue = val;
+  this.opacityValue = 0.2;
+  this.onScrollMethod = function () {
+    this.elementObject.style = `transform: scale(${Number(
+      this.transformValue
+    )});opacity: ${Number(this.opacityValue)} `;
+  };
+  this.scrollCalculate = function () {
+    let bounding = this.elementObject.getBoundingClientRect();
+    if (bounding.y <= 750) {
+      if (this.transformValue < 1) {
+        this.transformValue += 0.009;
+        this.opacityValue += 0.02;
+      }
+    }
+  };
+}
 
 offCanvasButton.addEventListener("click", () => toggleOffCanvas());
 document.addEventListener("click", function (eventObject) {
@@ -47,25 +69,6 @@ document.addEventListener("scroll", function () {
     elementList[i].onScrollMethod();
   }
 });
-function ScaleUp(elem, val) {
-  this.elementObject = elem;
-  this.transformValue = val;
-  this.opacityValue = 0.2;
-  this.onScrollMethod = function () {
-    this.elementObject.style = `transform: scale(${Number(
-      this.transformValue
-    )});opacity: ${Number(this.opacityValue)} `;
-  };
-  this.scrollCalculate = function () {
-    let bounding = this.elementObject.getBoundingClientRect();
-    if (bounding.y <= 750) {
-      if (this.transformValue < 1) {
-        this.transformValue += 0.009;
-        this.opacityValue += 0.02;
-      }
-    }
-  };
-}
 for (let i = 0; i < noScaleElement.length; i++) {
   elementList.push(new ScaleUp(noScaleElement[i], 0.7));
 }

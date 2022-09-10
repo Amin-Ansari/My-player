@@ -15,4 +15,9 @@ function showVideo() {
 }
 function closeVideo() {
   closeButton.parentElement.classList.replace("dis-flex", "dis-none");
+  pauseTheVideo();
+}
+function pauseTheVideo() {
+  videoMedia.currentTime = 0;
+  videoMedia.pause();
 }
