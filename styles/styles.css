@@ -602,3 +602,11 @@ span.menu-link:after {
   opacity: 0.2;
   transition: all 0.1s;
 }
+.subscribe-span {
+  font-size: 1.02em;
+  font-weight: 400;
+}
+.subscribe-margin {
+  margin-top: 5em;
+  margin-bottom: 11em;
+}
