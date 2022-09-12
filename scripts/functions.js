@@ -23,17 +23,14 @@ function pauseTheVideo() {
 }
 function toggleQuestion(eventObject) {
   if (eventObject.target.classList.contains("question")) {
-    closeAllQuestions();
     eventObject.target.classList.toggle("open-question");
     let plusIcon = eventObject.target.lastElementChild.children;
     togglePlus(plusIcon);
   } else if (eventObject.target.classList.contains("open-close-icon")) {
-    closeAllQuestions();
     eventObject.target.parentElement.classList.toggle("open-question");
     let plusIcon = eventObject.target.parentElement.lastElementChild.children;
     togglePlus(plusIcon);
   } else {
-    closeAllQuestions();
     eventObject.target.parentElement.parentElement.classList.toggle(
       "open-question"
     );
@@ -46,9 +43,4 @@ function togglePlus(objectCollection) {
   for (let i = 0; i < objectCollection.length; i++) {
     objectCollection[i].classList.toggle("clicked-acc");
   }
-}
-function closeAllQuestions() {
-  questionSection.forEach(function (item) {
-    item.classList.remove("open-question");
-  });
 }

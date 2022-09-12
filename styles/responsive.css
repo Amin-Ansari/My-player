@@ -210,14 +210,23 @@
     padding-left: 0em;
   }
   .question-sent {
-    font-size: 1.2em;
+    font-size: 1.3em;
     transition: all 0.4s;
   }
   .question {
     padding: 0px 12px 0px 60px;
   }
+  .question-padd {
+    padding: 20px 0px;
+  }
+  .answer {
+    margin-top: 20px;
+  }
   .open-question {
     height: 88vw;
+  }
+  .open-question .answer {
+    margin-top: 0px;
   }
 }
 @media all and (min-width: 576px) {
@@ -324,6 +333,9 @@
   }
   .open-question {
     height: 23vw;
+  }
+  .question-padd {
+    padding: 28px 0px;
   }
 }
 @media all and (min-width: 768px) {
