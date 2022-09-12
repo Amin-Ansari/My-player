@@ -683,6 +683,7 @@ span.menu-link:after {
   font-size: 1.07em;
   padding: 8.5px 0px;
   border-top: 1px solid #3a3a3a;
+  align-items: baseline;
 }
 .option:nth-of-type(5) {
   border-top: 1px solid #3a3a3a;
