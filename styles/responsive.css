@@ -213,8 +213,8 @@
     font-size: 1.2em;
   }
   .question-icon {
-    width: 45px;
-    height: 45px;
+    width: 43px;
+    height: 43px;
   }
   .plus-icon {
     width: 60%;
@@ -222,7 +222,6 @@
   .question-padd {
     padding: 18px 0px 18px 0px;
   }
-
   .answer {
     padding-right: 24px;
     padding-left: 90px;

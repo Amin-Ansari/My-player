@@ -33,6 +33,33 @@ questionList.addEventListener("click", function (eventObject) {
       theAnswer.classList.toggle("answer-padding");
       togglePlus(eventObject.target.firstElementChild.children);
     }
+  } else if (eventObject.target.nodeName == "SPAN") {
+    let theAnswer = eventObject.target.parentElement.nextElementSibling;
+    if (!returnTheHeight(eventObject.target.parentElement.nextElementSibling)) {
+      theAnswer.style = `height:${theAnswer.scrollHeight + 28}px;`;
+      theAnswer.classList.toggle("answer-padding");
+      togglePlus(eventObject.target.children);
+    } else {
+      theAnswer.style = "height:0px;";
+      theAnswer.classList.toggle("answer-padding");
+      togglePlus(eventObject.target.children);
+    }
+  } else if (eventObject.target.nodeName == "I") {
+    let theAnswer =
+      eventObject.target.parentElement.parentElement.nextElementSibling;
+    if (
+      !returnTheHeight(
+        eventObject.target.parentElement.parentElement.nextElementSibling
+      )
+    ) {
+      theAnswer.style = `height:${theAnswer.scrollHeight + 28}px;`;
+      theAnswer.classList.toggle("answer-padding");
+      togglePlus(eventObject.target.parentElement.children);
+    } else {
+      theAnswer.style = "height:0px;";
+      theAnswer.classList.toggle("answer-padding");
+      togglePlus(eventObject.target.parentElement.children);
+    }
   }
 });
 function returnTheHeight(object) {
