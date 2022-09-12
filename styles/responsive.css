@@ -212,15 +212,21 @@
   .question-title {
     font-size: 1.2em;
   }
-  .question-padd {
-    padding: 18px 0px 18px 10px;
-  }
   .question-icon {
     width: 45px;
     height: 45px;
   }
   .plus-icon {
     width: 60%;
+  }
+  .question-padd {
+    padding: 18px 0px 18px 0px;
+  }
+  .answer {
+    padding-left: 40px;
+  }
+  .answer-margin {
+    padding-bottom: 18px;
   }
 }
 @media all and (min-width: 576px) {
@@ -329,7 +335,10 @@
     padding: 28px 0px;
   }
   .question-padd {
-    padding: 28px 24px;
+    padding: 28px 24px 28px 24px;
+  }
+  .answer-margin {
+    padding-bottom: 28px;
   }
 }
 @media all and (min-width: 768px) {
@@ -421,9 +430,6 @@
   }
   .plan-padd {
     padding: 0px 95px;
-  }
-  .acc-padd {
-    padding: 0;
   }
   .plan-list {
     column-gap: 40px;

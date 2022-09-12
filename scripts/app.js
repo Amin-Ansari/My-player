@@ -6,6 +6,7 @@ const videoMedia = document.querySelector("video");
 const closeButton = document.querySelector(".close-btn");
 const noScaleElement = document.querySelectorAll(".no-scale");
 const slaceElement = document.querySelectorAll(".no-scale");
+const questionList = document.querySelector(".questions-list");
 let elementList = [];
 
 // Contructor functions

@@ -21,7 +21,24 @@ function pauseTheVideo() {
   videoMedia.currentTime = 0;
   videoMedia.pause();
 }
-function toggleQuestion() {}
+questionList.addEventListener("click", function (eventObject) {
+  if (eventObject.target.nodeName == "H6") {
+    let theAnswer = eventObject.target.nextElementSibling;
+    if (!returnTheHeight(eventObject.target.nextElementSibling)) {
+      theAnswer.style = `height:${theAnswer.scrollHeight}px;`;
+      theAnswer.classList.toggle("answer-margin");
+      togglePlus(eventObject.target.firstElementChild.children);
+    } else {
+      theAnswer.style = "height:0px;";
+      theAnswer.classList.toggle("answer-margin");
+      togglePlus(eventObject.target.firstElementChild.children);
+    }
+  }
+});
+function returnTheHeight(object) {
+  let theStyle = getComputedStyle(object).height;
+  return Number(theStyle.split("px")[0]);
+}
 function togglePlus(objectCollection) {
   for (let i = 0; i < objectCollection.length; i++) {
     objectCollection[i].classList.toggle("clicked-acc");
