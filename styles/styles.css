@@ -622,3 +622,72 @@ span.menu-link:after {
 .pricing-title {
   font-size: 2.2em;
 }
+.plan-list {
+  column-gap: 40px;
+}
+.plan {
+  background-image: linear-gradient(180deg, #303030, #1a1a1a);
+  border-radius: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+.price-context {
+  flex-flow: column nowrap;
+}
+.price-name {
+  background-color: #262626;
+  text-align: center;
+  width: 100%;
+  font-size: 1em;
+  position: relative;
+}
+.price-name::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 0.8px;
+  background: #4d4d4d;
+}
+.gradient-bg::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  background-image: linear-gradient(125deg, #66df57, #058d3f 50%, #66df57);
+}
+.price {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding: 0.7em 0px 0em;
+}
+.price ~ p {
+  color: #737373;
+  font-size: 0.93em;
+  text-align: center;
+  line-height: 1.45em;
+}
+.choose-button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 1.2em;
+}
+.options-container {
+  margin: 18px 0px 35px;
+}
+.option {
+  color: #858585;
+  font-size: 1.07em;
+  padding: 8.5px 0px;
+  border-top: 1px solid #3a3a3a;
+}
+.option:nth-of-type(5) {
+  border-top: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+}
+.option i {
+  color: #fff;
+}

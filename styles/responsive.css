@@ -192,6 +192,12 @@
   .pricing-title {
     font-size: 1.85em;
   }
+  .plan-list {
+    column-gap: 0px;
+  }
+  .plan-padd {
+    padding: 0;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -286,6 +292,9 @@
   .recent-padd {
     padding: 0px 120px;
   }
+  .plan-padd {
+    padding: 0px 95px;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -373,6 +382,9 @@
   }
   .recent-padd {
     padding: 0px 120px;
+  }
+  .plan-padd {
+    padding: 0px 95px;
   }
 }
 @media all and (min-width: 992px) {
@@ -464,6 +476,9 @@
   }
   .recent-padd {
     padding: 0px 50px;
+  }
+  .plan-padd {
+    padding: 0px 0px;
   }
 }
 @media all and (min-width: 1200px) {
