@@ -5,7 +5,6 @@ const videoSection = document.querySelector(".vidoe-section");
 const videoMedia = document.querySelector("video");
 const closeButton = document.querySelector(".close-btn");
 const noScaleElement = document.querySelectorAll(".no-scale");
-const questionSection = document.querySelectorAll(".question");
 const slaceElement = document.querySelectorAll(".no-scale");
 let elementList = [];
 
@@ -52,11 +51,6 @@ document.addEventListener("scroll", function () {
   }
   window.addEventListener("load", function () {
     this.document.documentElement.scrollTop = 0;
-  });
-});
-questionSection.forEach(function (item) {
-  item.addEventListener("click", function (eventObject) {
-    toggleQuestion(eventObject);
   });
 });
 

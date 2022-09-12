@@ -21,24 +21,7 @@ function pauseTheVideo() {
   videoMedia.currentTime = 0;
   videoMedia.pause();
 }
-function toggleQuestion(eventObject) {
-  if (eventObject.target.classList.contains("question")) {
-    eventObject.target.classList.toggle("open-question");
-    let plusIcon = eventObject.target.lastElementChild.children;
-    togglePlus(plusIcon);
-  } else if (eventObject.target.classList.contains("open-close-icon")) {
-    eventObject.target.parentElement.classList.toggle("open-question");
-    let plusIcon = eventObject.target.parentElement.lastElementChild.children;
-    togglePlus(plusIcon);
-  } else {
-    eventObject.target.parentElement.parentElement.classList.toggle(
-      "open-question"
-    );
-    let plusIcon =
-      eventObject.target.parentElement.parentElement.lastElementChild.children;
-    togglePlus(plusIcon);
-  }
-}
+function toggleQuestion() {}
 function togglePlus(objectCollection) {
   for (let i = 0; i < objectCollection.length; i++) {
     objectCollection[i].classList.toggle("clicked-acc");

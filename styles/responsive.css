@@ -209,24 +209,18 @@
     text-align: center;
     padding-left: 0em;
   }
-  .question-sent {
-    font-size: 1.3em;
-    transition: all 0.4s;
-  }
-  .question {
-    padding: 0px 12px 0px 60px;
+  .question-title {
+    font-size: 1.2em;
   }
   .question-padd {
-    padding: 20px 0px;
+    padding: 18px 0px 18px 10px;
   }
-  .answer {
-    margin-top: 20px;
+  .question-icon {
+    width: 45px;
+    height: 45px;
   }
-  .open-question {
-    height: 88vw;
-  }
-  .open-question .answer {
-    margin-top: 0px;
+  .plus-icon {
+    width: 60%;
   }
 }
 @media all and (min-width: 576px) {
@@ -331,11 +325,11 @@
   .plan-list {
     column-gap: 40px;
   }
-  .open-question {
-    height: 23vw;
-  }
   .question-padd {
     padding: 28px 0px;
+  }
+  .question-padd {
+    padding: 28px 24px;
   }
 }
 @media all and (min-width: 768px) {
@@ -433,9 +427,6 @@
   }
   .plan-list {
     column-gap: 40px;
-  }
-  .open-question {
-    height: 22vw;
   }
 }
 @media all and (min-width: 992px) {
@@ -537,9 +528,6 @@
   .plan-list {
     column-gap: 25px;
   }
-  .open-question {
-    height: 21vw;
-  }
 }
 @media all and (min-width: 1200px) {
   .xl-span-1 {
@@ -610,9 +598,6 @@
   .plan-list {
     column-gap: 40px;
   }
-  .open-question {
-    height: 14.5vw;
-  }
 }
 @media all and (min-width: 1400px) {
   .xxl-span-1 {
@@ -660,10 +645,6 @@
   }
   .companies-title {
     padding: 3.8vw 0vw;
-  }
-  .open-question {
-    height: 13vw;
-    max-height: 188px;
   }
 }
 .container-fluid {
