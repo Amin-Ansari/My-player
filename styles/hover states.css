@@ -45,3 +45,6 @@
 .social-media li:nth-of-type(4):hover {
   background-color: #f20000;
 }
+.question:hover {
+  background: rgba(95, 95, 95, 0.11);
+}

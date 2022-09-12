@@ -21,3 +21,17 @@ function pauseTheVideo() {
   videoMedia.currentTime = 0;
   videoMedia.pause();
 }
+function toggleQuestion(eventObject) {
+  if (eventObject.target.classList.contains("question")) {
+    let plusIcon = eventObject.target.lastElementChild;
+  } else {
+    let plusIcon =
+      eventObject.target.parentElement.parentElement.lastElementChild.children;
+    togglePlus(plusIcon);
+  }
+}
+function togglePlus(objectCollection) {
+  for (let i = 0; i < objectCollection.length; i++) {
+    objectCollection[i].classList.toggle("clicked-acc");
+  }
+}

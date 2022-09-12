@@ -5,7 +5,7 @@ const videoSection = document.querySelector(".vidoe-section");
 const videoMedia = document.querySelector("video");
 const closeButton = document.querySelector(".close-btn");
 const noScaleElement = document.querySelectorAll(".no-scale");
-
+const questionSection = document.querySelectorAll(".question");
 const slaceElement = document.querySelectorAll(".no-scale");
 let elementList = [];
 
@@ -31,6 +31,7 @@ function ScaleUp(elem, val) {
   };
 }
 
+// Event listeners
 offCanvasButton.addEventListener("click", () => toggleOffCanvas());
 document.addEventListener("click", function (eventObject) {
   if (eventObject.target.classList.contains("off-canvas-container")) {
@@ -53,6 +54,13 @@ document.addEventListener("scroll", function () {
     this.document.documentElement.scrollTop = 0;
   });
 });
+questionSection.forEach(function (item) {
+  item.addEventListener("click", function (eventObject) {
+    toggleQuestion(eventObject);
+  });
+});
+
+// This loop makes instanses per each element which has no-sclae class
 for (let i = 0; i < noScaleElement.length; i++) {
   elementList.push(new ScaleUp(noScaleElement[i], 0.7));
 }

@@ -198,6 +198,17 @@
   .plan-padd {
     padding: 0;
   }
+  .acc-padd {
+    padding: 0;
+  }
+  .plan-questions-heading {
+    font-size: 1.8em;
+  }
+  .plan-questions-heading,
+  .answers-span {
+    text-align: center;
+    padding-left: 0em;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -295,6 +306,12 @@
   .plan-padd {
     padding: 0px 95px;
   }
+  .acc-padd {
+    padding: 0;
+  }
+  .plan-list {
+    column-gap: 40px;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -385,6 +402,12 @@
   }
   .plan-padd {
     padding: 0px 95px;
+  }
+  .acc-padd {
+    padding: 0;
+  }
+  .plan-list {
+    column-gap: 40px;
   }
 }
 @media all and (min-width: 992px) {
@@ -478,7 +501,13 @@
     padding: 0px 50px;
   }
   .plan-padd {
-    padding: 0px 0px;
+    padding: 0px 50px;
+  }
+  .acc-padd {
+    padding: 0px 50px;
+  }
+  .plan-list {
+    column-gap: 25px;
   }
 }
 @media all and (min-width: 1200px) {
@@ -546,6 +575,9 @@
   .short-comment {
     margin-top: 1.6vw;
     margin-bottom: -2.8vw;
+  }
+  .plan-list {
+    column-gap: 40px;
   }
 }
 @media all and (min-width: 1400px) {
