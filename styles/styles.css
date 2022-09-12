@@ -747,14 +747,10 @@ span.menu-link:after {
 .answer {
   height: 0;
   text-align: justify;
-  padding-left: 90px;
   font-size: 0.9em;
   color: #555555;
   transition: all 0.4s;
 }
 .clicked-acc:nth-of-type(1) {
   transform: translate(50%, -50%) rotate(0deg);
-}
-.answer-margin {
-  padding-bottom: 28px;
 }

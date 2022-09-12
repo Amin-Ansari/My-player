@@ -222,11 +222,14 @@
   .question-padd {
     padding: 18px 0px 18px 0px;
   }
+
   .answer {
-    padding-left: 40px;
+    padding-right: 24px;
+    padding-left: 90px;
   }
-  .answer-margin {
-    padding-bottom: 18px;
+  .answer {
+    padding-right: 0px;
+    padding-left: 40px;
   }
 }
 @media all and (min-width: 576px) {
@@ -332,13 +335,11 @@
     column-gap: 40px;
   }
   .question-padd {
-    padding: 28px 0px;
-  }
-  .question-padd {
     padding: 28px 24px 28px 24px;
   }
-  .answer-margin {
-    padding-bottom: 28px;
+  .answer {
+    padding-right: 24px;
+    padding-left: 90px;
   }
 }
 @media all and (min-width: 768px) {
@@ -526,9 +527,6 @@
     padding: 0px 50px;
   }
   .plan-padd {
-    padding: 0px 50px;
-  }
-  .acc-padd {
     padding: 0px 50px;
   }
   .plan-list {

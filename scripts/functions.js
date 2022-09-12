@@ -25,12 +25,12 @@ questionList.addEventListener("click", function (eventObject) {
   if (eventObject.target.nodeName == "H6") {
     let theAnswer = eventObject.target.nextElementSibling;
     if (!returnTheHeight(eventObject.target.nextElementSibling)) {
-      theAnswer.style = `height:${theAnswer.scrollHeight}px;`;
-      theAnswer.classList.toggle("answer-margin");
+      theAnswer.style = `height:${theAnswer.scrollHeight + 28}px;`;
+      theAnswer.classList.toggle("answer-padding");
       togglePlus(eventObject.target.firstElementChild.children);
     } else {
       theAnswer.style = "height:0px;";
-      theAnswer.classList.toggle("answer-margin");
+      theAnswer.classList.toggle("answer-padding");
       togglePlus(eventObject.target.firstElementChild.children);
     }
   }
