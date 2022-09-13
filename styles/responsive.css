@@ -230,6 +230,9 @@
   .faq-title {
     font-size: 1.8em;
   }
+  .changelog-heastory-heading {
+    font-size: 1.8em;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
