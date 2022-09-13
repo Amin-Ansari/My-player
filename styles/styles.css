@@ -756,3 +756,31 @@ span.menu-link:after {
 .clicked-acc:nth-of-type(1) {
   transform: translate(50%, -50%) rotate(0deg);
 }
+.faq-span {
+  font-size: 1em;
+  text-align: center;
+}
+.faq-title {
+  text-align: center;
+  color: #fff;
+  font-size: 2.1em;
+}
+.faq-section-title {
+  background: #232323;
+  border-radius: 20px;
+  width: max-content;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.faq-section-title p {
+  margin-right: 6px;
+  font-size: 1.05em;
+}
+.green-dot {
+  height: 6px;
+  width: 6px;
+  background-image: linear-gradient(90deg, #058d3f, #66df57);
+  border-radius: 100px;
+}
