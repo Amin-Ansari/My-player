@@ -907,3 +907,9 @@ span.menu-link:after {
 .no-bottom-margin {
   margin-bottom: 0px !important;
 }
+.licence-note {
+  color: #aaa;
+  font-size: 0.85em;
+  text-align: center;
+  padding: 8em 18em 5em;
+}
