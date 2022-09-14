@@ -795,3 +795,82 @@ span.menu-link:after {
   font-size: 2.1em;
   font-weight: 800;
 }
+.logs-history {
+  width: 100%;
+  max-width: 970px;
+  color: #fff;
+  grid-template: minmax(400px, auto) / 1fr 7fr;
+  column-gap: 40px;
+  grid-template-areas: "date" "version";
+}
+.date-part {
+  grid-area: "date";
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  height: 100%;
+  position: relative;
+}
+.date-part::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: #fff;
+  left: -6px;
+  top: -19px;
+  position: absolute;
+}
+.text-date::before {
+  display: inline-block;
+  font-size: 0.83em;
+  position: absolute;
+  top: -22.5px;
+  color: #808080;
+}
+.text-date:nth-of-type(1)::before {
+  content: "10/02/1400";
+  color: #808080;
+}
+.version-part {
+  height: 100%;
+  grid-area: "version";
+  position: relative;
+}
+.version-description {
+  padding-left: 5em;
+  text-align: justify;
+  color: #6f6f6f;
+  font-size: 0.93em;
+}
+.version-title {
+  font-size: 2em;
+  position: absolute;
+  top: -30px;
+}
+.versin-heading {
+  align-items: baseline;
+}
+.old-symbol {
+  display: inline-block;
+  color: #ff244c;
+  border: 1px solid #ff244c;
+  font-size: 0.8em;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+.new-symbol {
+  display: inline-block;
+  color: #3cb54a;
+  border: 1px solid #3cb54a;
+  font-size: 0.8em;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+.version-symbol-title {
+  font-size: 1.1em;
+}
+.download-button-margin {
+  margin: 35px 0px;
+}

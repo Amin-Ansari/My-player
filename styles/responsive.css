@@ -233,6 +233,32 @@
   .changelog-heastory-heading {
     font-size: 1.8em;
   }
+  .log-side-padding {
+    padding: 0px 0px;
+  }
+  .verstion-titile {
+    width: 100%;
+    border-right: 2px solid #444444;
+  }
+  .logs-history {
+    column-gap: 0px;
+    grid-template: minmax(400px, auto) / 0fr 7fr;
+    grid-template-areas: "date" "version";
+    column-gap: 20px;
+  }
+  .text-date:nth-of-type(1)::before {
+    top: -22.5px;
+    right: 20px;
+    color: #808080;
+  }
+  .version-title {
+    font-size: 1.8em;
+    position: static;
+    margin-top: 15px;
+  }
+  .download-button-margin {
+    margin: 20px 0px;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -343,6 +369,9 @@
     padding-right: 24px;
     padding-left: 90px;
   }
+  .log-side-padding {
+    padding: 0px 0px;
+  }
 }
 @media all and (min-width: 768px) {
   .md-span-1 {
@@ -436,6 +465,9 @@
   }
   .plan-list {
     column-gap: 40px;
+  }
+  .log-side-padding {
+    padding: 0px 0px;
   }
 }
 @media all and (min-width: 992px) {
@@ -533,6 +565,9 @@
   }
   .plan-list {
     column-gap: 25px;
+  }
+  .log-side-padding {
+    padding: 0px 50px;
   }
 }
 @media all and (min-width: 1200px) {
