@@ -269,6 +269,27 @@
     font-size: 1.3em;
     padding: 8px 0px;
   }
+  .licence-heading {
+    font-size: 1.7em;
+    padding-top: 8px;
+  }
+  .licence {
+    flex-flow: row wrap;
+  }
+  .licence div {
+    width: 100%;
+    text-align: center;
+  }
+  .icons-pack {
+    margin: auto;
+  }
+  .licence-note {
+    color: #aaa;
+    font-size: 0.85em;
+    text-align: center;
+    padding: 8em 1em 5em;
+    margin: auto;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
@@ -381,6 +402,9 @@
   }
   .log-side-padding {
     padding: 0px 0px;
+  }
+  .icons-pack {
+    width: 192px;
   }
 }
 @media all and (min-width: 768px) {
