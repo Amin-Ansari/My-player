@@ -262,6 +262,13 @@
   .change-log-heading {
     margin-bottom: 5em;
   }
+  .term-paragraph {
+    padding-left: 2em;
+  }
+  .middle-heading {
+    font-size: 1.3em;
+    padding: 8px 0px;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {

@@ -875,3 +875,35 @@ span.menu-link:after {
 .download-button-margin {
   margin: 35px 0px;
 }
+.term-context {
+  width: 100%;
+  max-width: 970px;
+  color: #fff;
+}
+.term-title {
+  margin-top: 3em;
+  font-size: 2.2em;
+}
+.term-paragraph {
+  padding-left: 10em;
+  text-align: justify;
+  color: #aaaaaa;
+  font-size: 0.92em;
+}
+.green-link {
+  color: #058d3f;
+}
+.middle-heading {
+  font-size: 1.4em;
+  padding: 8px 0px;
+}
+.term-order-list {
+  color: #aaaaaa;
+  padding-right: 35px;
+}
+.term-order-list li {
+  list-style-type: decimal;
+}
+.no-bottom-margin {
+  margin-bottom: 0px !important;
+}
