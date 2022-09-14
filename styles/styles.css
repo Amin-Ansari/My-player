@@ -787,6 +787,7 @@ span.menu-link:after {
 .change-log-heading {
   text-align: center;
   color: #fff;
+  margin-bottom: 7em;
 }
 .versions-span {
   font-size: 1.1em;
@@ -817,7 +818,7 @@ span.menu-link:after {
   border-radius: 100px;
   background-color: #fff;
   left: -6px;
-  top: -19px;
+  top: -25px;
   position: absolute;
 }
 .text-date::before {

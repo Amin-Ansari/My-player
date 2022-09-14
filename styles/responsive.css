@@ -259,6 +259,9 @@
   .download-button-margin {
     margin: 20px 0px;
   }
+  .change-log-heading {
+    margin-bottom: 5em;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
