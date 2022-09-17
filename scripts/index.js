@@ -22,5 +22,7 @@ document.addEventListener("scroll", function () {
   introImage.calculateTransform();
 });
 window.addEventListener("load", function () {
-  introImage.calculateTransform();
+  if (window.innerWidth >= 576) {
+    introImage.calculateTransform();
+  }
 });
