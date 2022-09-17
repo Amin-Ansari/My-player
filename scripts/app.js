@@ -50,9 +50,9 @@ document.addEventListener("scroll", function () {
     elementList[i].scrollCalculate();
     elementList[i].onScrollMethod();
   }
-  window.addEventListener("load", function () {
-    this.document.documentElement.scrollTop = 0;
-  });
+});
+window.addEventListener("load", function () {
+  introImage.calculateTransform();
 });
 
 // This loop makes instanses per each element which has no-sclae class

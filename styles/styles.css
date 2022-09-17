@@ -230,8 +230,7 @@ span.menu-link:after {
   border-radius: 6px;
   border: 1px solid #ffffff29;
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.7);
-  opacity: 0.2;
-  transform: rotateX(-50deg);
+  opacity: 0.3;
   transition: all 0.1s;
 }
 .feature-section {
@@ -600,9 +599,9 @@ span.menu-link:after {
   border-top: 1px solid #ffffff1a;
 }
 .no-scale {
-  transform: scale(0.7);
+  /* transform: scale(0.7);
   opacity: 0.2;
-  transition: all 0.1s;
+  transition: all 0.1s; */
 }
 .subscribe-span {
   font-size: 1.02em;
