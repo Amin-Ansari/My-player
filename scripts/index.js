@@ -11,7 +11,6 @@ function ScrollBase(theElement) {
       this.theElement.style.opacity = `${theOpacity / theBoundingTop + 0.3}`;
     } else {
       this.theElement.style.opacity = `${theOpacity}`;
-      console.log(theOpacity / theBoundingTop + 0.3);
     }
   };
 }

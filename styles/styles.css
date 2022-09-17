@@ -599,9 +599,7 @@ span.menu-link:after {
   border-top: 1px solid #ffffff1a;
 }
 .no-scale {
-  /* transform: scale(0.7);
-  opacity: 0.2;
-  transition: all 0.1s; */
+  transition: all 0.1s;
 }
 .subscribe-span {
   font-size: 1.02em;
