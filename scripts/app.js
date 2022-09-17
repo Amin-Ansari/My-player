@@ -17,15 +17,14 @@ function ScaleupBase(theElement) {
   this.theElement = theElement;
   this.sclaeCalculate = function () {
     let theBoundingTop = theElement.getBoundingClientRect().top;
-    theBoundingTop = theBoundingTop / 400;
+    theBoundingTop = (theBoundingTop + 95) / 400;
     if (theSclae / theBoundingTop < 1 && theSclae / theBoundingTop >= 0) {
       theElement.style = `transform: scale(${theSclae / theBoundingTop})`;
     } else {
       theElement.style = `transform: scale(${theSclae})`;
     }
-    if (theBoundingTop > 0) {
-      this.theElement.style.opacity = `${theOpacity / (theBoundingTop + 0.5)}`;
-      console.log(theOpacity / (theBoundingTop + 0.5));
+    if (theSclae / theBoundingTop < 1 && theSclae / theBoundingTop >= 0) {
+      this.theElement.style.opacity = `${theOpacity / theBoundingTop - 0.3}`;
     } else {
       this.theElement.style.opacity = `${theOpacity}`;
     }
@@ -52,7 +51,9 @@ document.addEventListener("scroll", function () {
   }
 });
 window.addEventListener("load", function () {
-  introImage.calculateTransform();
+  for (let i = 0; i < elementList.length; i++) {
+    elementList[i].sclaeCalculate();
+  }
 });
 
 // This loop makes instanses per each element which has no-sclae class

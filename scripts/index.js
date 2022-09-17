@@ -19,3 +19,6 @@ const introImage = new ScrollBase(document.querySelector(".into-iamge"));
 document.addEventListener("scroll", function () {
   introImage.calculateTransform();
 });
+window.addEventListener("load", function () {
+  introImage.calculateTransform();
+});
