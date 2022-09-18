@@ -290,6 +290,9 @@
     padding: 8em 1em 5em;
     margin: auto;
   }
+  .companies-title {
+    padding: 15px 25px;
+  }
 }
 @media all and (min-width: 576px) {
   .sm-span-1 {
